@@ -1,0 +1,18 @@
+<html>
+<head>
+<link href="style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<div id="wrapper">
+<p>use via form or-</p>
+<div id="barcode_div">
+ <form method="post" action="generate_barcode.php">
+  <input type="text" name="barcode_text">
+  <input type="submit" name="generate_barcode" value="GENERATE">
+ </form>
+</div>
+<p>you can also use it like this</p>
+<img src="barcode/barcode.php?text=testing" alt="testing" />
+</div>
+</body>
+</html>
